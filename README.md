@@ -1,1 +1,2 @@
-# OBD-II
+# OBD-II 
+This project is a diagnostic tool for OBD-II codes that allows users to look up fault descriptions based on entered codes. The program loads a database of OBD-II codes and their descriptions from a CSV file and allows the user to input a code, which is then validated for correctness. If the code is valid, the program retrieves the corresponding fault description; otherwise, it notifies the user of an invalid code format. This tool is useful for diagnosing issues in vehicles equipped with OBD-II systems for fault detection. The program uses regular expressions to validate code formats and loads data from a CSV file for efficient information retrieval and searching.
